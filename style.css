@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+header{
+    background-color: #0c4f88;
+    color:#37deca;
+    padding: 10px 0;
+    /* text-align: center; */
+    height: 600px;
+}
+nav{
+    background-color: #0c4f88;
+    color: whitesmoke;
+    padding: 10px 0;
+    text-align: end;
+    height: 10vh;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+    color: #37deca;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.content{
+    padding: 40px;
+    margin-top: 20px;
+    display: block;
+    
+}
+.content p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: aliceblue;
+    margin-top: 10px;
+}
+ .banner{
+    display: flex;
+ }
+    .banner img{
+        margin-top: 30px;
+        padding: 10px;
+    }
+    button{
+        background-color: #0c4f88;
+        color: whitesmoke;
+        padding: 10px 20px;
+        border-style: dashed;
+        border-radius: 5px;
+        
+    }
+    .trust{
+        text-align: center;
+        padding: 40px;  
+        background-color: blanchedalmond; 
+    }
+    .trust a{
+    color: darkgrey;
+    font-size: large;
+    padding: 10px;
+    background-color: blanchedalmond;
+    
+    }
+    .trust-content{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        
+    }
+    .content-section{
+        padding: 40px;
+        display: flex;
+        text-align: center;
+    }
+    .content-section a{ 
+         color: darkgrey;
+         font-size: large;
+           
+    }
+    
+    .main-content{
+        justify-content: space-around;
+        padding: 20px;
+        
+    }
+    .main-content h3{
+        margin-top: 10px;
+        color: black;  
+        padding: 20px; 
+        
+    }
+    .content-section1{
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        background-color: darkgray;
+        /* margin: 30px; */
+        padding: 40px;
+    }
+    .footer{
+        background-color: #0c4f88;
+        color: whitesmoke;
+        padding: 40px 0;
+        text-align: center;
+        height: 80vh;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .copy{
+        margin-bottom: 20px;
+    }
+    .company{
+        margin-bottom: 20px;
+    }
+    .services{
+        margin-bottom: 20px;
+    }
+    .content-section{
+        background-color: black;
+        color: blueviolet;
+    }
+    .contact{
+        text-align: center;
+        margin-left: 350px;
+        
+    }
+    @media screen and (max-width: 768px){
+        .banner{
+            display: block;
+        
+            
+        }
+        
+    .banner img{
+       display: none;
+    }
+        .content-section{
+            display: block;
+        }
+        .content-section1{
+            display: block;
+        }
+        .trust-content{
+            display: block;
+        }
+        .main-content{
+            display: block;
+        }
+        .contact{
+            margin-left: 0;
+        }
+        button{
+        background-color: #0c4f88;
+        color: whitesmoke;
+        padding: 0;
+        border-style: dashed;
+        border-radius: 5px;  
+    }   
+    nav{
+    background-color: #0c4f88;
+    color: whitesmoke;
+    padding: 10px 0;
+    text-align: center;
+    height: 10vh;
+}
+    }
